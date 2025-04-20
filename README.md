@@ -31,7 +31,7 @@ Add SwiftGlass to your project through Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/yourusername/SwiftGlass.git", from: "1.0.0")
+    .package(url: "https://github.com/1998code/SwiftGlass.git", from: "1.0.0")
 ]
 ```
 
