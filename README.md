@@ -45,6 +45,7 @@ Xcode 16.3 (Not Minimum Required)
 
 ```
 Open /Demo/Demo.xcodeproj
+*To prevent resolving failed, please rename the root folder from SwiftGlass-xxx to SwiftGlass
 ```
 
 ## Installation (on your project)
