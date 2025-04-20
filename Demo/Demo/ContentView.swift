@@ -50,9 +50,9 @@ struct ContentView: View {
                         .shadow(color: .white, radius: 3)
                 }
                 
+#if !os(watchOS)
                 Spacer()
                 
-#if !os(watchOS)
                 Image(systemName: "homekit")
                     .font(.largeTitle)
                     .symbolRenderingMode(.multicolor)
