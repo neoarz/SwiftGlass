@@ -80,6 +80,7 @@
 				Samples/Basic.swift,
 				Samples/GlassFlower.swift,
 				Samples/GlassFlowerRotate.swift,
+				Samples/Input.swift,
 			);
 			target = 3A80CECB2DB4C144006BDD0A /* Watch Watch App */;
 		};
