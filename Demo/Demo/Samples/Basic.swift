@@ -12,7 +12,7 @@ struct Basic: View {
     var body: some View {
         ZStack {
             
-#if !os(visionOS) && !os(watchOS)
+#if !os(visionOS) && !os(watchOS) && !os(macOS)
             background
 #endif
 

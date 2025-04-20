@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A80CEB52DB4BD4B006BDD0A /* SwiftGlass in Frameworks */ = {isa = PBXBuildFile; productRef = 3A80CEB42DB4BD4B006BDD0A /* SwiftGlass */; };
-		3A80CEEC2DB4C145006BDD0A /* Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3A80CECC2DB4C144006BDD0A /* Watch Watch App.app */; platformFilters = (ios, macos, xros, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3A80CEEC2DB4C145006BDD0A /* Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3A80CECC2DB4C144006BDD0A /* Watch Watch App.app */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3A80CEFB2DB4C1E6006BDD0A /* SwiftGlass in Frameworks */ = {isa = PBXBuildFile; productRef = 3A80CEFA2DB4C1E6006BDD0A /* SwiftGlass */; };
 /* End PBXBuildFile section */
 
@@ -520,11 +520,7 @@
 		};
 		3A80CEEB2DB4C145006BDD0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilters = (
-				ios,
-				macos,
-				xros,
-			);
+			platformFilter = ios;
 			target = 3A80CECB2DB4C144006BDD0A /* Watch Watch App */;
 			targetProxy = 3A80CEEA2DB4C145006BDD0A /* PBXContainerItemProxy */;
 		};
@@ -814,6 +810,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PAHLTG8AD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Watch;
@@ -842,6 +839,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9PAHLTG8AD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = Watch;

@@ -13,5 +13,8 @@ struct DemoApp: App {
         WindowGroup {
             Basic()
         }
+        #if os(macOS)
+        .windowStyle(.hiddenTitleBar)
+        #endif
     }
 }
