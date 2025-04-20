@@ -25,11 +25,11 @@ struct ContentView: View {
                 .glass()
             
 #if os(tvOS)
-            .frame(maxWidth: 500)
+                .frame(maxWidth: 500)
 #elseif !os(watchOS)
-            .frame(maxWidth: 300)
+                .frame(maxWidth: 300)
 #else
-            .frame(maxWidth: 175)
+                .frame(maxWidth: 175)
 #endif
             
         }
