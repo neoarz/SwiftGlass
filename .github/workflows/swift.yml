@@ -10,17 +10,15 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
-    runs-on: ubuntu-latest  # Changed from macos-latest to ubuntu-latest
-
+  xcode:
+    runs-on: macos-15
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_16.3.app/Contents/Developer
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup Swift
-      uses: sersoft-gmbh/swifty-linux-action@v3
-      with:
-        release-version: 6.1
-    - name: Build
-      run: swift build -v
-    - name: Run tests
-      run: swift test -v
+      - uses: actions/checkout@v4
+      - name: Version
+        run: swift --version
+      - name: Build
+        run: swift build -v
+      - name: Test
+        run: swift test -v
