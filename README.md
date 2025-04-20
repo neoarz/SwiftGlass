@@ -34,6 +34,9 @@ dependencies: [
 
 ### Basic Usage
 
+<img width="328" alt="Screenshot 2025-04-20 at 2 41 51 PM" src="https://github.com/user-attachments/assets/1c64b4a6-7e10-4ee8-8e81-a731891a10fb" />
+
+
 ```swift
 import SwiftUI
 import SwiftGlass
@@ -48,6 +51,8 @@ struct ContentView: View {
 ```
 
 ### Custom Glass Effect
+
+<img width="328" alt="Screenshot 2025-04-20 at 2 40 11 PM" src="https://github.com/user-attachments/assets/0c2c234a-2c74-4262-9a54-23d62ba03815" />
 
 ```swift
 VStack {
