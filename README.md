@@ -4,8 +4,8 @@
 
 ![Swift Version](https://img.shields.io/badge/Swift-6.1-teal.svg)
 ![Build Test](https://img.shields.io/github/actions/workflow/status/1998code/swiftglass/swift.yml?branch=main&style=flat&label=Build&color=%237AE2CF)
-![Platforms](https://img.shields.io/badge/platforms-iOS%2015.0+%20|%20macOS%2014.0+%20|%20tvOS%2015.0+%20|%20watchOS%2010.0+%20|%20visionOS%201.0+-15437D.svg)
-![License](https://img.shields.io/badge/license-MIT-C8ECFE.svg)
+![Platforms](https://img.shields.io/badge/Platforms-iOS%2015.0+%20|%20macOS%2014.0+%20|%20tvOS%2015.0+%20|%20watchOS%2010.0+%20|%20visionOS%201.0+-15437D.svg)
+![License](https://img.shields.io/badge/License-MIT-C8ECFE.svg)
 
 ![SwiftGlass@3x](https://github.com/user-attachments/assets/7f289182-9717-4f42-a0d9-880d0fedaf86)
 
