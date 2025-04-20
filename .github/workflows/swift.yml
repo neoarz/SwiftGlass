@@ -16,6 +16,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Install Swift using Swiftly
+      run: |
+        curl -O https://download.swift.org/swiftly/darwin/swiftly.pkg
+        sudo installer -pkg swiftly.pkg -target /
+        export PATH="/usr/local/bin:$PATH"
+        swiftly init --quiet-shell-followup
+        . ~/.swiftly/env.sh
+        swiftly install 6.1
+        swift --version
     - name: Build
       run: swift build -v
     - name: Run tests
