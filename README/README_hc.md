@@ -6,7 +6,7 @@
 ![支援平台](https://img.shields.io/badge/platforms-iOS%2015.0+%20|%20macOS%2014.0+%20|%20tvOS%2015.0+%20|%20watchOS%2010.0+%20|%20visionOS%201.0+-indigo.svg)
 ![授權條款](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![SwiftGlass@3x](https://github.com/user-attachments/assets/7f289182-9717-4f42-a0d9-880d0fedaf86)
+![SwiftGlass@3x-hc](https://github.com/user-attachments/assets/56d0b464-9f25-4c5e-b72e-4f655fd750de)
 
 ## 特色
 
