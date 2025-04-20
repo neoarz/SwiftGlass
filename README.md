@@ -15,6 +15,24 @@
 🎨 **Highly customizable**: Adjust colors, materials, shadows, and more<br/>
 🧩 **SwiftUI integration**: Simple ViewModifier implementation
 
+## Gallery
+
+| <img width="421" alt="Screenshot 2025-04-20 at 4 16 55 PM" src="https://github.com/user-attachments/assets/062a85c7-6269-4aee-a9b3-b2b336f2c3b0" /> | ![image](https://github.com/user-attachments/assets/1f5e3ceb-aff1-4f9a-a296-5713fa9164ca) | ![image](https://github.com/user-attachments/assets/f1417fa5-a3de-40f4-abd8-a1de2c9fe59d) |
+| -- | -- | -- |
+| iOS | watchOS I | watchOS II |
+
+| ![image](https://github.com/user-attachments/assets/0a5a65f3-7162-4a3b-aa58-97789803a37a) | ![image](https://github.com/user-attachments/assets/06195623-cf4b-427d-a4ec-17912c00ca10) |
+| -- | -- |
+| macOS (Dark) I | macOS (Dark) II |
+
+| ![image](https://github.com/user-attachments/assets/42febaa1-3ddd-4e04-b811-940e1e099ce4) | ![image](https://github.com/user-attachments/assets/594674a4-391e-46e6-a92f-411e6fbbca70) |
+| -- | -- |
+| tvOS I | tvOS II |
+
+| ![image](https://github.com/user-attachments/assets/23067498-c552-48bc-b80a-e5c51d82dbd1) | ![image](https://github.com/user-attachments/assets/52d0a618-5c06-41ba-9687-dac7bbf34a35) |
+| -- | -- |
+| visionOS | iPadOS |
+
 ## Tested Platforms and Environment
 
 iOS 15.0+, macOS 14.0+, watchOS 10.0+, tvOS 15.0+, and visionOS 1.0+
@@ -27,7 +45,19 @@ Xcode 16.3 (Not Minimum Required)
 
 ### Swift Package Manager
 
-Add SwiftGlass to your project through Swift Package Manager:
+Add SwiftGlass to your project through Swift Package Manager 
+
+```
+PROJECT > Package Dependencies > +
+```
+
+```
+https://github.com/1998code/SwiftGlass.git
+```
+
+<img width="1248" alt="Screenshot 2025-04-20 at 4 29 46 PM" src="https://github.com/user-attachments/assets/443f3489-c8b2-4d4f-a716-0003ecab5951" />
+
+OR
 
 ```swift
 dependencies: [
@@ -37,7 +67,7 @@ dependencies: [
 
 ## Usage
 
-### Basic Usage
+### Basic Usage (View / Button / Anywhere)
 
 <img width="328" alt="Screenshot 2025-04-20 at 2 41 51 PM" src="https://github.com/user-attachments/assets/1c64b4a6-7e10-4ee8-8e81-a731891a10fb" />
 
