@@ -82,20 +82,20 @@ import SwiftGlass
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Glass!")
+        Text("你好, 玻璃!")
             .padding(40)
             .glass() // 使用默认玻璃效果
     }
 }
 ```
 
-### Custom Glass Effect
+### 自定义玻璃效果
 
 <img width="328" alt="Screenshot 2025-04-20 at 2 40 11 PM" src="https://github.com/user-attachments/assets/0c2c234a-2c74-4262-9a54-23d62ba03815" />
 
 ```swift
 VStack {
-    Text("Custom Glass")
+    Text("自定玻璃")
     Image(systemName: "sparkles")
 }
 .padding(30)
