@@ -16,19 +16,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Install Swift using Swiftly
-      run: |
-        # Download Swiftly package
-        curl -O https://download.swift.org/swiftly/darwin/swiftly.pkg
-        # Install to the current user's home directory to avoid permission issues
-        installer -pkg swiftly.pkg -target CurrentUserHomeDirectory
-        # Initialize Swiftly in the user's environment
-        ~/.swiftly/bin/swiftly init --quiet-shell-followup
-        source ~/.swiftly/env.sh
-        # Install Swift 6.1
-        swiftly install 6.1
-        # Verify installation
-        swift --version
+    - name: Setup Swift
+      uses: sersoft-gmbh/swifty-linux-action@v3
+      with:
+        release-version: 6.1
     - name: Build
       run: swift build -v
     - name: Run tests
