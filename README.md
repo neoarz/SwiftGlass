@@ -2,8 +2,6 @@
 
 # SwiftGlass
 
-### Glassy Everything, even Old Devices 📲
-
 ![Swift Version](https://img.shields.io/badge/Swift-6.1-teal.svg)
 ![Platforms](https://img.shields.io/badge/platforms-iOS%2015.0+%20|%20macOS%2014.0+%20|%20tvOS%2015.0+%20|%20watchOS%2010.0+%20|%20visionOS%201.0+-indigo.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
