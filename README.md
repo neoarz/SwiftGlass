@@ -8,6 +8,8 @@
 ![Platforms](https://img.shields.io/badge/platforms-iOS%2015.0+%20|%20macOS%2014.0+%20|%20tvOS%2015.0+%20|%20watchOS%2010.0+%20|%20visionOS%201.0+-indigo.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
+![SwiftGlass@0 5x](https://github.com/user-attachments/assets/e8903844-a855-4ed9-82f5-d103ce41cadc)
+
 ## Features
 
 🔄 **Cross-platform**: Works on iOS, macOS, watchOS, tvOS, and visionOS<br/>
