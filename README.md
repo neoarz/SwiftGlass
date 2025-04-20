@@ -1,6 +1,8 @@
+<img width="150" alt="GK" src="https://github.com/user-attachments/assets/e8ef2a81-eed4-4b52-a253-1f4563fed631" />
+
 # SwiftGlass
 
-### The Greatest Glass Effect across all Apple platforms, even on old devices.
+### Glassy Everything, even Old Devices 📲
 
 ![Swift Version](https://img.shields.io/badge/Swift-6.1-teal.svg)
 ![Platforms](https://img.shields.io/badge/platforms-iOS%2015.0+%20|%20macOS%2014.0+%20|%20tvOS%2015.0+%20|%20watchOS%2010.0+%20|%20visionOS%201.0+-indigo.svg)
@@ -15,7 +17,10 @@
 
 ## Tested Platforms and Environment
 
-iOS 15.0+, macOS 14.0+, watchOS 10.0+, tvOS 15.0+, and visionOS 1.0+<br/>
+iOS 15.0+, macOS 14.0+, watchOS 10.0+, tvOS 15.0+, and visionOS 1.0+
+
+![image](https://github.com/user-attachments/assets/99794cda-e879-4194-85fb-f6350ddf9db8)
+
 Xcode 16.3 (Not Minimum Required)
 
 ## Installation
