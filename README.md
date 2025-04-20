@@ -8,7 +8,7 @@
 ![Platforms](https://img.shields.io/badge/platforms-iOS%2015.0+%20|%20macOS%2014.0+%20|%20tvOS%2015.0+%20|%20watchOS%2010.0+%20|%20visionOS%201.0+-indigo.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![SwiftGlass@0 5x](https://github.com/user-attachments/assets/e8903844-a855-4ed9-82f5-d103ce41cadc)
+![SwiftGlass@3x](https://github.com/user-attachments/assets/be64109f-3a8e-4c32-a173-ada0cdeaa81a)
 
 ## Features
 
