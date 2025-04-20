@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Basic.swift
 //  Demo
 //
 //  Created by Ming on 20/4/2025.
@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftGlass
 
-struct ContentView: View {
+struct Basic: View {
     var body: some View {
         ZStack {
             
@@ -109,10 +109,10 @@ struct ContentView: View {
 }
 
 #Preview("Light") {
-    ContentView()
+    Basic()
 }
 
 #Preview("Dark") {
-    ContentView()
+    Basic()
         .preferredColorScheme(.dark)
 }

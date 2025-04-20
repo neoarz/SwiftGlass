@@ -77,7 +77,9 @@
 		3A80CEF82DB4C1D9006BDD0A /* Exceptions for "Demo" folder in "Watch Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				ContentView.swift,
+				Samples/Basic.swift,
+				Samples/GlassFlower.swift,
+				Samples/GlassFlowerRotate.swift,
 			);
 			target = 3A80CECB2DB4C144006BDD0A /* Watch Watch App */;
 		};
