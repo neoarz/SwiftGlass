@@ -37,11 +37,17 @@
 
 iOS 15.0+, macOS 14.0+, watchOS 10.0+, tvOS 15.0+, and visionOS 1.0+
 
-![image](https://github.com/user-attachments/assets/99794cda-e879-4194-85fb-f6350ddf9db8)
-
 Xcode 16.3 (Not Minimum Required)
 
-## Installation
+![image](https://github.com/user-attachments/assets/99794cda-e879-4194-85fb-f6350ddf9db8)
+
+## Project Demo (Quick Starter)
+
+```
+Open /Demo/Demo.xcodeproj
+```
+
+## Installation (on your project)
 
 ### Swift Package Manager
 
@@ -49,15 +55,13 @@ Add SwiftGlass to your project through Swift Package Manager
 
 ```
 PROJECT > Package Dependencies > +
-```
 
-```
 https://github.com/1998code/SwiftGlass.git
 ```
 
 <img width="1248" alt="Screenshot 2025-04-20 at 4 29 46 PM" src="https://github.com/user-attachments/assets/443f3489-c8b2-4d4f-a716-0003ecab5951" />
 
-OR
+> Or you may add it manually as follows
 
 ```swift
 dependencies: [
